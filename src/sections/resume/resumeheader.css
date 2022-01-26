@@ -23,3 +23,28 @@
 #cvheader .column-left{
     padding-right: 20px;
 }
+
+@media only screen and (max-width: 750px) {
+    #cvheader #container-content{
+        flex-direction: column;
+    }
+    #cvheader #container-right{
+        margin: 50px 0 0 0;
+    }
+
+    #cvheader #container-left td{
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+
+    #cvheader .column-left{
+        width: 75px;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 950px) {
+
+    #cvheader img{
+        height: 150px;
+    }
+}

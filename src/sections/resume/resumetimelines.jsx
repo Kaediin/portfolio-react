@@ -55,19 +55,44 @@ function Resumetimelines(){
             ]
         },
         {
+            title: 'Key skills',
+            subTimelines: [
+                {
+                    isActive: true,
+                    period: 'Developing in a fast-paced environment',
+                    function: 'I am able to focus wel at the task at hand. I am used to working in fast-paced environments with a continuous-integration work-flow.'
+                },
+                {
+                    isActive: true,
+                    period: 'Creative problem solving',
+                    function: 'When developing I often run into situations which require a different approach than usual. I always like to attack a problem from different angles and to come up with the best and most efficient solution. I believe there is always another way.'
+                },
+                {
+                    isActive: true,
+                    period: 'Always willing to learn',
+                    function: 'New software (tools) popup every day. I am always willing to learn new (and old!) technologies. I am never afraid to jump in the deep end and figure thing out.'
+                },
+                {
+                    isActive: true,
+                    period: 'Working in a team',
+                    function: 'Teamwork is essential in a developing-environment. I am not afraid to ask for help and I can learn very well from others.'
+                },
+            ]
+        },
+        {
             title: 'Hobbies',
             subTimelines: [
                 {
                     isActive: true,
                     period: 'Building apps',
-                    function: 'I like to experiment with new technologies and grow my knowledge with upcoming' +
-                        'software. For example I’ve developed an app that tracks all SpaceX rocket launches and a cookbook' +
-                        'web-app for my mother’s recipes.'
+                    function: 'I like to experiment with new technologies and grow my knowledge with upcoming ' +
+                        'software. For example I’ve developed an app that tracks all SpaceX rocket launches and a cookbook-' +
+                        'webapp for my mother’s recipes.'
                 },
                 {
                     isActive: true,
                     period: 'Sports',
-                    function: 'I like to stay active. I do this by going to the gym, going for a run, or playing a soccer-match.'
+                    function: 'I like to stay active. I do this by going to the gym, walking my dog, going for a run, and playing a soccer-match.'
                 },
             ]
         },
@@ -83,6 +108,9 @@ function Resumetimelines(){
             </div>
             <div className="container-timeline">
                 <Timeline timeline={timelines[2]}/>
+            </div>
+            <div className="container-timeline">
+                <Timeline timeline={timelines[3]}/>
             </div>
         </section>
     )
