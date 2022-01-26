@@ -1,9 +1,9 @@
 #cvbiography{
-    background: #415871;
-    padding: 20px;
+    background: var(--color4);
+    padding: 50px var(--resume-padding) 0 var(--resume-padding);
 }
 
-#cvbiography h3{
+#cvbiography h2, #cvbiography p{
     margin: 0;
-    padding: 0;
+    padding: 5px 0;
 }

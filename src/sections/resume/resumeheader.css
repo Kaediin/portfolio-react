@@ -1,5 +1,6 @@
 #cvheader{
-    background: #1b242f;
+    background: var(--color1);
+    padding: 50px var(--resume-padding);
 }
 
 #cvheader h1{
@@ -11,7 +12,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
 }
 
 #cvheader img{

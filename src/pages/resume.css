@@ -1,0 +1,8 @@
+#resume{
+    background: var(--color1);
+}
+
+#resume #resume-content{
+    min-height: calc(100vh - 100px);
+}
+

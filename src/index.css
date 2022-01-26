@@ -4,17 +4,20 @@
   -moz-osx-font-smoothing: grayscale;
   color: white;
 }
+
 :root{
   --color1: #1b242f;
   --color2: #253241;
   --color3: #2f3e51;
   --color4: #384a61;
   --color5: #415771;
+  --resume-padding: 15%;
 }
 
 body {
   margin: 0;
   padding: 0;
+  background: var(--color1);
 }
 
 h1{
@@ -30,4 +33,16 @@ a{
   font-size: 40px;
   text-decoration: underline;
   padding: 25px 0;
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1950px) {
+  :root{
+    --resume-padding: 20%;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  :root{
+    --resume-padding: 25%;
+  }
 }
