@@ -1,0 +1,14 @@
+#projects{
+    background: var(--color2);
+}
+#projects #container-content{
+    padding: 100px 0;
+    text-align: center;
+}
+
+#projects #container-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}

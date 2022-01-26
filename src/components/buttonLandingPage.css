@@ -1,0 +1,23 @@
+#container-component-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    border-radius: 2px;
+    width: 200px;
+    cursor: pointer;
+}
+
+#container-component-button:hover{
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+#container-component-button-text{
+    color: white;
+}
+
+#container-component-button-image{
+    width: 25px;
+    height: 25px;
+}

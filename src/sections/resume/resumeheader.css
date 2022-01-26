@@ -1,0 +1,25 @@
+#cvheader{
+    background: #1b242f;
+}
+
+#cvheader h1{
+    font-size: 34px;
+}
+
+
+#cvheader #container-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#cvheader img{
+    height: 200px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+#cvheader .column-left{
+    padding-right: 20px;
+}

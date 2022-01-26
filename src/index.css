@@ -1,0 +1,33 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+:root{
+  --color1: #1b242f;
+  --color2: #253241;
+  --color3: #2f3e51;
+  --color4: #384a61;
+  --color5: #415771;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.header{
+  font-size: 40px;
+  text-decoration: underline;
+  padding: 25px 0;
+}

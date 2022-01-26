@@ -1,0 +1,83 @@
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .timelineChild{
+        display: grid;
+        grid: "circleContainer subTimelinePeriod subTimelineFunction"1fr/
+    0 150px auto;
+    }
+    .containerTimelineTitle{
+        border-bottom: 2px solid white;
+    }
+    h2{
+        margin: 0;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .containerTimelineTitle {
+        display: flex;
+        align-items: center;
+    }
+
+    .circleContainer {
+        position: relative;
+        width: 40px;
+    }
+
+    .bigCircle {
+        background: white;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .line {
+        background: white;
+        width: 2px;
+        height: 100%;
+        margin: auto;
+    }
+
+    .smallCircle {
+        position: absolute;
+        background: white;
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+        margin: auto;
+        top: 50%;
+        bottom: 50%;
+        left: 25%;
+        right: 25%;
+    }
+
+    .subTimelinePeriod{
+        display: flex;
+        align-items: center;
+    }
+
+    h2 {
+        margin: 0 20px;
+    }
+
+    .timelineChild {
+        display: grid;
+        grid: "circleContainer subTimelinePeriod subTimelineFunction"1fr/
+  40px 175px 1fr;
+    }
+
+    .subTimelinePeriod {
+        margin-left: 20px;
+    }
+
+    .closingLine{
+        height: 2px;
+        background: white;
+        margin: 0 19px;
+    }
+}

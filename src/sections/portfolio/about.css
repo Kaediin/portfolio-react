@@ -1,0 +1,25 @@
+#about{
+    min-height: 100vh;
+    background: var(--color1);
+}
+
+#about #container-content{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#about #container-content img{
+    border-radius: 50%;
+    width: 50%;
+    margin: 100px 0;
+}
+
+#about #container-content h2{
+    font-size: 32px;
+}
+
+#about #container-content p{
+    font-size: 20px;
+}
