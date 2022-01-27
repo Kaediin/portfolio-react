@@ -1,18 +1,48 @@
-
-
-
 /* Extra small devices (phones, 600px and down) */
+.timelineChild .subTimelineDivider{
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
-    .timelineChild{
+    .timelineChild {
         display: grid;
-        grid: "circleContainer subTimelinePeriod subTimelineFunction"1fr/
-    0 150px auto;
+        grid: "circleContainer "0
+        "subTimelinePeriod "auto
+        "subTimelineFunction"1fr/
+    1fr;
     }
-    .containerTimelineTitle{
+
+    .containerTimeline .timelineChild p{
+        margin: 0;
+        padding: 0;
+    }
+
+    .containerTimeline .timelineChild{
+        margin: 25px 0 0 0;
+        padding: 0;
+    }
+
+    .containerTimeline .subTimelinePeriod p{
+        margin: 8px 0;
+        padding: 0;
+        font-weight: bold;
+    }
+
+    .containerTimelineTitle {
         border-bottom: 2px solid white;
     }
-    h2{
+
+    h2 {
         margin: 0;
+    }
+
+    .timelineChild .subTimelineDivider{
+        display: block;
+        width: 60%;
+        margin: 25px auto 0 auto;
+        border-style: solid;
+        border-color: var(--color2);
+        border-width: 1px;
     }
 
 }
@@ -56,7 +86,7 @@
         right: 25%;
     }
 
-    .subTimelinePeriod{
+    .subTimelinePeriod {
         display: flex;
         align-items: center;
     }
@@ -75,11 +105,11 @@
         padding-left: 20px;
     }
 
-    .containerTimeline .subTimelineFunction{
+    .containerTimeline .subTimelineFunction {
         padding-left: 30px;
     }
 
-    .closingLine{
+    .closingLine {
         height: 2px;
         background: white;
         margin: 0 19px;

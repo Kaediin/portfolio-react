@@ -6,17 +6,23 @@ function Timeline(props) {
     let children = [];
     timeline.subTimelines.forEach(sub => {
         var smallCicle = [];
-        if (sub.isActive){
-            smallCicle.push(<div className="smallCircle"></div>)
+        if (sub.isActive) {
+            smallCicle.push(<div className="smallCircle"/>)
         }
+        var divider = [];
+        if (timeline.subTimelines[timeline.subTimelines.length - 1] !== sub) {
+            divider.push(<hr className="subTimelineDivider"/>)
+        }
+
         children.push(
             <div className="timelineChild">
                 <div className="circleContainer">
                     {smallCicle}
-                    <div className="line"></div>
+                    <div className="line"/>
                 </div>
                 <div className="subTimelinePeriod"><p>{sub.period}</p></div>
                 <div className="subTimelineFunction"><p>{sub.function}</p></div>
+                {divider}
             </div>
         )
     })
@@ -25,12 +31,12 @@ function Timeline(props) {
         <div className="containerTimeline">
             <div className="containerTimelineTitle">
                 <div className="circleContainer">
-                    <div className="bigCircle"></div>
+                    <div className="bigCircle"/>
                 </div>
                 <h2>{timeline.title}</h2>
             </div>
             {children}
-            <div className="closingLine"></div>
+            <div className="closingLine"/>
         </div>
     )
 }
