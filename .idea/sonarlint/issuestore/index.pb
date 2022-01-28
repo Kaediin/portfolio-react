@@ -28,12 +28,8 @@ R
 "src/sections/portfolio/contact.css,7/b/7b32f202433e6ce254812b3bb63f591bb70de6cf
 R
 "src/sections/portfolio/contact.jsx,1/8/182bdb0c899243bcd1cbe06f34043bd2da6f7567
-V
-&src/sections/portfolio/landingpage.css,a/4/a49f6a89b0f8e55cd974ab3f93f5b56db17b2f5d
 Q
 !src/sections/portfolio/navbar.css,4/5/45ebae2c85f5c01b74b86be1b7b1b3ded4785046
-V
-&src/sections/portfolio/landingpage.jsx,3/1/3178c856285632f47c096b09b717ccac2b6f1487
 S
 #src/sections/portfolio/projects.css,7/d/7df450375f0c764909aca664b242bdbfb009488d
 Q
