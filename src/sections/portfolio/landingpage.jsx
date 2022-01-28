@@ -4,7 +4,7 @@ import ButtonLandingPage from "../../components/buttonLandingPage";
 import {Link} from "react-router-dom";
 import {Link as LinkScroll} from "react-scroll";
 
-const arrowPath = "/portfolio/arrow-white.png";
+const arrowPath = "/portfolio/icons/ic-arrow.png";
 
 function Landingpage() {
     return (

@@ -10,14 +10,6 @@ D
 src/pages/layout.jsx,4/c/4c2a69f79a6ed58f70d07c808a045eb29fdd26b2
 ;
 src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
-T
-$src/components/buttonLandingPage.css,4/a/4acbd90d2161d298f07f59aedf2d158b27289082
-T
-$src/components/buttonLandingPage.jsx,0/7/07d920b310c6ff1e1b49ede9a9871b70af024308
-O
-src/components/projectBlock.jsx,e/d/edeaed801e4e69814dd19d38e9eb75f4d690e095
-O
-src/components/projectBlock.css,4/f/4f1b24c83b07d8db63d1a88fbdc586984b9c741c
 G
 src/sections/footer.css,d/d/dd659e40fe3af0b07381de5dbf1c0b4a59b3a92b
 G
@@ -34,8 +26,6 @@ S
 #src/sections/portfolio/projects.css,7/d/7df450375f0c764909aca664b242bdbfb009488d
 Q
 !src/sections/portfolio/navbar.jsx,7/3/731ed5cde1b644e096b194e4ce2bd0f058df2dd1
-S
-#src/sections/portfolio/projects.jsx,e/d/eda590ed33c69e53468e4bc709b6ba340cdde2d3
 G
 src/pages/portfolio.jsx,c/5/c54ee45168ef94ace480e62b503b9321dc19639b
 <
@@ -44,8 +34,6 @@ D
 src/pages/nopage.jsx,5/b/5baf808774589d9740e5751ae02605fe28c14fa8
 W
 'src/sections/resume/resumetimelines.css,3/8/38d00c680ea64817f3d6612dc025a5b1af0fad59
-=
-src/index.css,c/5/c5d38a62d1faae90a2acaa34b79a7ef365c917e4
 W
 'src/sections/resume/resumebiography.css,0/c/0cbec691841f02fd0a978d2c79c561c69cb2eeb3
 D
