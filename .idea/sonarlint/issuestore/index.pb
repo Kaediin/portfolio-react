@@ -24,10 +24,6 @@ G
 src/sections/footer.jsx,7/1/7191e893d6db8e61e8827a60ce599605eb4b5c7d
 A
 public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
-P
- src/sections/portfolio/about.css,9/6/968b0b3736018757ec6d7abf4432b294014efa5b
-P
- src/sections/portfolio/about.jsx,3/e/3e0ea328c8cc4441c6eed2954786a009a2da26fb
 R
 "src/sections/portfolio/contact.css,7/b/7b32f202433e6ce254812b3bb63f591bb70de6cf
 R
