@@ -36,9 +36,9 @@ function Contact() {
                     </form>
                 </div>
                 <div id="container-socials">
-                    <a target="_blank" href="https://github.com/Kaediin"><img className="social-image" src="/portfolio/github.png"/></a>
-                    <a target="_blank" href="https://instagram.com/Kaediin"><img className="social-image" src="/portfolio/instagram.png"/></a>
-                    <a target="_blank" href="https://nl.linkedin.com/in/kaedin-schouten-9383b619b"><img className="social-image" src="/portfolio/linkedin.png"/></a>
+                    <a target="_blank" href="https://github.com/Kaediin"><img className="social-image" src="/portfolio/icons/ic-github.png"/></a>
+                    <a target="_blank" href="https://instagram.com/Kaediin"><img className="social-image" src="/portfolio/icons/ic-instagram.png"/></a>
+                    <a target="_blank" href="https://nl.linkedin.com/in/kaedin-schouten-9383b619b"><img className="social-image" src="/portfolio/icons/ic-linkedin.png"/></a>
                 </div>
             </div>
         </section>
