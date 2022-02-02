@@ -1,13 +1,8 @@
 
 F
 src/reportWebVitals.js,1/c/1ce5e63ae1582ed0b425c46001299a07515efbf9
-:
-
-src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
 @
 public/.htaccess,c/9/c9fe70f275af093c7fb3ed73b451fadc91069bac
-D
-src/pages/layout.jsx,4/c/4c2a69f79a6ed58f70d07c808a045eb29fdd26b2
 ;
 src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
 G
@@ -18,26 +13,14 @@ A
 public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
 Q
 !src/sections/portfolio/navbar.css,4/5/45ebae2c85f5c01b74b86be1b7b1b3ded4785046
-S
-#src/sections/portfolio/projects.css,7/d/7df450375f0c764909aca664b242bdbfb009488d
 Q
 !src/sections/portfolio/navbar.jsx,7/3/731ed5cde1b644e096b194e4ce2bd0f058df2dd1
-G
-src/pages/portfolio.jsx,c/5/c54ee45168ef94ace480e62b503b9321dc19639b
-<
-src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
-D
-src/pages/nopage.jsx,5/b/5baf808774589d9740e5751ae02605fe28c14fa8
 W
 'src/sections/resume/resumetimelines.css,3/8/38d00c680ea64817f3d6612dc025a5b1af0fad59
 W
 'src/sections/resume/resumebiography.css,0/c/0cbec691841f02fd0a978d2c79c561c69cb2eeb3
-D
-src/pages/resume.jsx,b/c/bc33c6380f32e691daeefd685d1eee153ade0a03
 W
 'src/sections/resume/resumebiography.jsx,b/f/bf4247fe96b2c5c707d012b7bff858909eeeeb20
-A
-package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
 D
 public/manifest.json,4/2/42e89cd2213b9d5dfae4f63522702c623170d792
 A
@@ -52,5 +35,30 @@ T
 $src/sections/resume/resumeheader.css,0/5/05ee4482253a0e65b5c8698af87ef96e0a4bae18
 D
 src/pages/resume.css,b/9/b9e38ff3eaf5197e6689906c4c7247e02063550f
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
+K
+src/components/timeline.jsx,8/7/8789383443dc65899ea471480b4a2bf3286e005d
+P
+ src/sections/portfolio/about.css,9/6/968b0b3736018757ec6d7abf4432b294014efa5b
+K
+src/components/timeline.css,2/9/2947640fe6a61315b242822b9096c8502b94b857
+P
+ src/sections/portfolio/about.jsx,3/e/3e0ea328c8cc4441c6eed2954786a009a2da26fb
+V
+&src/sections/portfolio/landingpage.css,a/4/a49f6a89b0f8e55cd974ab3f93f5b56db17b2f5d
+T
+$src/components/buttonLandingPage.css,4/a/4acbd90d2161d298f07f59aedf2d158b27289082
+T
+$src/components/buttonLandingPage.jsx,0/7/07d920b310c6ff1e1b49ede9a9871b70af024308
+O
+src/components/projectBlock.css,4/f/4f1b24c83b07d8db63d1a88fbdc586984b9c741c
+O
+src/components/circleButton.css,8/7/8792a6acfeb0a0fb89f7a8054799c5576f6f9a48
+O
+src/components/circleButton.jsx,c/4/c4f7bcdd1d7caae914d1e6dfdd2ac69487db37d0
+R
+"src/sections/portfolio/contact.css,7/b/7b32f202433e6ce254812b3bb63f591bb70de6cf
+R
+"src/sections/portfolio/contact.jsx,1/8/182bdb0c899243bcd1cbe06f34043bd2da6f7567
+:
+
+src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714

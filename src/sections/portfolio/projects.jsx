@@ -6,6 +6,7 @@ function Projects() {
 
     const projects = [
         {
+            id: 0,
             type: "Android App",
             description: "This Android-project is a simple app that displays the Reflex-Online web-application in an app, with added functionality like: LED-lights to show the booking-status, scheduled log uploads, and automatic reboots.",
             company: "Reflex-online",
@@ -18,6 +19,7 @@ function Projects() {
             webUrl: "https://www.reflex-online.com/"
         },
         {
+            id: 1,
             type: "Website",
             description: "A simple website for the restaurant chain Willie Wong in The Netherlands. This website is currently in the early stage of its development.",
             company: "WillieWong",
@@ -29,6 +31,7 @@ function Projects() {
             webUrl: "https://williewong.nl/"
         },
         {
+            id: 2,
             type: "Web Application",
             description: "Eelloo their platform is primarily used as an e-assessment platform. Here candidates can take assessments for various work-related reasons (Recruitment, Employability, Promotion, etc).",
             company: "Eelloo",
@@ -41,6 +44,7 @@ function Projects() {
             webUrl: "https://eelloo.nl/"
         },
         {
+            id: 3,
             type: "Web Application",
             description: "Ancora helps people take their health to the next level with a groundbreaking range of preventive health and care programs for employers, individuals and primary care providers.",
             company: "Ancora Health",
@@ -89,7 +93,7 @@ function Projects() {
 
     const projectsDom = [];
     projects.forEach(project => {
-        projectsDom.push(<ProjectBlock project={project}/>)
+        projectsDom.push(<ProjectBlock project={project} key={project.id}/>)
     })
 
     return (

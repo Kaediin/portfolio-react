@@ -6,15 +6,19 @@ import Projects from "../sections/portfolio/projects";
 import Contact from "../sections/portfolio/contact";
 import Footer from "../sections/footer";
 
-function Portfolio() {
-    return (<div>
+class Portfolio extends React.Component{
+    render() {
+        return <div>
             <Landingpage />
             <Navbar/>
             <About/>
             <Projects/>
             <Contact/>
             <Footer/>
-        </div>);
+        </div>
+    }
+
+
 }
 
 export default Portfolio

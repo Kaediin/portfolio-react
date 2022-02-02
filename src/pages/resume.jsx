@@ -6,6 +6,7 @@ import Footer from "../sections/footer";
 import "./resume.css"
 
 function Resume() {
+
     return (<div id="resume">
             <div id="resume-content">
                 <Resumeheader/>

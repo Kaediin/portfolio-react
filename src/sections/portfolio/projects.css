@@ -12,3 +12,16 @@
     justify-content: space-evenly;
     padding: 0 50px;
 }
+
+#projects #container-projects .start-animation{
+    animation: createBox 1s;
+}
+
+@keyframes createBox {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
