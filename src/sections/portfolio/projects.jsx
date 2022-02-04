@@ -55,8 +55,7 @@ function Projects() {
                 "Mongo",
                 "GraphQL"
             ],
-            webUrl: "https://ancora.health/",
-            githubUrl: "https://github.com/Kaediin/SpaceX-API-Kotlin"
+            webUrl: "https://ancora.health/"
         }
         //     type: "Mobile App",
         //     description: "In this app you can stay up to date with all of the latest rocket-news regarding SpaceX. This app shows all the launches, its details, and way more. Currently also in development for I(PAD-)OS.",

@@ -6,15 +6,11 @@ F
 ;
 src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
 G
-src/sections/footer.css,d/d/dd659e40fe3af0b07381de5dbf1c0b4a59b3a92b
-G
 src/sections/footer.jsx,7/1/7191e893d6db8e61e8827a60ce599605eb4b5c7d
 A
 public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
 Q
 !src/sections/portfolio/navbar.css,4/5/45ebae2c85f5c01b74b86be1b7b1b3ded4785046
-Q
-!src/sections/portfolio/navbar.jsx,7/3/731ed5cde1b644e096b194e4ce2bd0f058df2dd1
 W
 'src/sections/resume/resumetimelines.css,3/8/38d00c680ea64817f3d6612dc025a5b1af0fad59
 W
@@ -50,15 +46,27 @@ $src/components/buttonLandingPage.css,4/a/4acbd90d2161d298f07f59aedf2d158b27289
 T
 $src/components/buttonLandingPage.jsx,0/7/07d920b310c6ff1e1b49ede9a9871b70af024308
 O
-src/components/projectBlock.css,4/f/4f1b24c83b07d8db63d1a88fbdc586984b9c741c
-O
 src/components/circleButton.css,8/7/8792a6acfeb0a0fb89f7a8054799c5576f6f9a48
 O
 src/components/circleButton.jsx,c/4/c4f7bcdd1d7caae914d1e6dfdd2ac69487db37d0
-R
-"src/sections/portfolio/contact.css,7/b/7b32f202433e6ce254812b3bb63f591bb70de6cf
 R
 "src/sections/portfolio/contact.jsx,1/8/182bdb0c899243bcd1cbe06f34043bd2da6f7567
 :
 
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
+D
+src/pages/nopage.css,0/e/0eacb276363311a36627c153ad68cead158afba2
+<
+package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
+A
+package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
+D
+src/pages/nopage.jsx,5/b/5baf808774589d9740e5751ae02605fe28c14fa8
+V
+&src/sections/portfolio/landingpage.jsx,3/1/3178c856285632f47c096b09b717ccac2b6f1487
+<
+src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
+D
+src/pages/layout.jsx,4/c/4c2a69f79a6ed58f70d07c808a045eb29fdd26b2
+S
+#src/sections/portfolio/projects.css,7/d/7df450375f0c764909aca664b242bdbfb009488d

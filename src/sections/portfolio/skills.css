@@ -1,0 +1,18 @@
+#skills{
+    background: var(--color3);
+}
+
+#skills #container-content{
+    padding: 100px 0;
+    text-align: center;
+}
+
+#skills #container-skills{
+    margin: 100px auto;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*align-items: stretch;*/
+    overflow: hidden;
+    width: 500px;
+    justify-content: center;
+}

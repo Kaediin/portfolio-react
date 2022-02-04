@@ -1,5 +1,5 @@
 #footer{
-    background: #1b242f;
+    background: var(--color2);
 }
 
 #footer #container-content{

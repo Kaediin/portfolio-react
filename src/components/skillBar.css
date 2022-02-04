@@ -1,0 +1,40 @@
+.container-content-skill{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    text-align: left;
+}
+
+.skill-item-image{
+    width: 200px;
+}
+
+.skill-item-image img{
+    height: 60px;
+    padding-right: 50px;
+}
+
+.cointainer-skill-progress{
+    background: var(--color2);
+    border-radius: 16px;
+    height: 30px;
+    width: 100%;
+}
+
+.skill-item-progress{
+    /*width: 90%;*/
+    height: 30px;
+    background: var(--color-green);
+    animation: stretch-box 2s;
+    border-radius: 16px;
+}
+
+@keyframes stretch-box {
+    from {
+        width: 0;
+    }
+
+    to {
+        /*width: 90%;*/
+    }
+}

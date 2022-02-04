@@ -1,6 +1,6 @@
 #container-component-project-block {
     width: 350px;
-    background: #00806f;
+    background: var(--color-green);
     border-radius: 20px;
     box-shadow: 0 7px 5px -2px #000;
     display: flex;

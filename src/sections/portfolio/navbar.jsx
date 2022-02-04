@@ -12,6 +12,7 @@ function Navbar() {
                     <Link to="home" spy={true} smooth={true} duration={duration} activeClass="active"><li>Home</li></Link>
                     <Link to="about" spy={true} smooth={true} duration={duration} activeClass="active"><li>About</li></Link>
                     <Link to="projects" spy={true} smooth={true} duration={duration} activeClass="active"><li>Projects</li></Link>
+                    <Link to="skills" spy={true} smooth={true} duration={duration} activeClass="active"><li>Skills</li></Link>
                     <Link to="contact" spy={true} smooth={true} duration={duration} activeClass="active"><li>Contact</li></Link>
                 </ul>
             </div>
