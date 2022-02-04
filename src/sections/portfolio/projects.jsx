@@ -16,7 +16,28 @@ function Projects() {
                 "XML",
                 "Java | Kotlin"
             ],
-            webUrl: "https://www.reflex-online.com/"
+            webUrl: "https://www.reflex-online.com/",
+            details : {
+                description: "Identify test robust leverage eye is foster user divide. Have streamlined information real and view x value long have innovation offshoring from overall overviews. Identify a is activity grow disruptive offshoring strategy runway normal close provide with heading win. Agile from immersion disruptive proposition level normal maximise. Going frameworks fruit loop tail have holistic survival." +
+                    "X keeping offline empowerment proposition immersion capitalize empowerment identify operational offline performing generation with mentality. Of in along end diversity up world divide your override for. Keeping long overall runway leverage user diversity additional. Highway corporate mentality thinking disruptive on robust solution of start long. With innovation ballpark your low via fruit podcasting override low proposition fruit is disruptive.",
+                skills: [
+                    {
+                        title: "Java",
+                        icon: "ic-java.png",
+                        strength: 75
+                    },
+                    {
+                        title: "Kotlin",
+                        icon: "ic-kotlin.png",
+                        strength: 25
+                    },
+                    {
+                        title: "Typescript",
+                        icon: "ic-typescript.png",
+                        strength: 50
+                    }
+                ]
+            }
         },
         {
             id: 1,
@@ -28,7 +49,28 @@ function Projects() {
                 "VueJS",
                 "JavaScript",
             ],
-            webUrl: "https://williewong.nl/"
+            webUrl: "https://williewong.nl/",
+            details : {
+                description: "Identify test robust leverage eye is foster user divide. Have streamlined information real and view x value long have innovation offshoring from overall overviews. Identify a is activity grow disruptive offshoring strategy runway normal close provide with heading win. Agile from immersion disruptive proposition level normal maximise. Going frameworks fruit loop tail have holistic survival." +
+                    "X keeping offline empowerment proposition immersion capitalize empowerment identify operational offline performing generation with mentality. Of in along end diversity up world divide your override for. Keeping long overall runway leverage user diversity additional. Highway corporate mentality thinking disruptive on robust solution of start long. With innovation ballpark your low via fruit podcasting override low proposition fruit is disruptive.",
+                skills: [
+                    {
+                        title: "Java",
+                        icon: "ic-java.png",
+                        strength: 75
+                    },
+                    {
+                        title: "Kotlin",
+                        icon: "ic-kotlin.png",
+                        strength: 25
+                    },
+                    {
+                        title: "Typescript",
+                        icon: "ic-typescript.png",
+                        strength: 50
+                    }
+                ]
+            }
         },
         {
             id: 2,
@@ -41,7 +83,28 @@ function Projects() {
                 "TypeScript",
                 "PostgreSQL"
             ],
-            webUrl: "https://eelloo.nl/"
+            webUrl: "https://eelloo.nl/",
+            details : {
+                description: "Identify test robust leverage eye is foster user divide. Have streamlined information real and view x value long have innovation offshoring from overall overviews. Identify a is activity grow disruptive offshoring strategy runway normal close provide with heading win. Agile from immersion disruptive proposition level normal maximise. Going frameworks fruit loop tail have holistic survival." +
+                    "X keeping offline empowerment proposition immersion capitalize empowerment identify operational offline performing generation with mentality. Of in along end diversity up world divide your override for. Keeping long overall runway leverage user diversity additional. Highway corporate mentality thinking disruptive on robust solution of start long. With innovation ballpark your low via fruit podcasting override low proposition fruit is disruptive.",
+                skills: [
+                    {
+                        title: "Java",
+                        icon: "ic-java.png",
+                        strength: 75
+                    },
+                    {
+                        title: "Kotlin",
+                        icon: "ic-kotlin.png",
+                        strength: 25
+                    },
+                    {
+                        title: "Typescript",
+                        icon: "ic-typescript.png",
+                        strength: 50
+                    }
+                ]
+            }
         },
         {
             id: 3,
@@ -55,7 +118,29 @@ function Projects() {
                 "Mongo",
                 "GraphQL"
             ],
-            webUrl: "https://ancora.health/"
+            webUrl: "https://ancora.health/",
+            githubUrl: "https://ancora.health/",
+            details : {
+                description: "Identify test robust leverage eye is foster user divide. Have streamlined information real and view x value long have innovation offshoring from overall overviews. Identify a is activity grow disruptive offshoring strategy runway normal close provide with heading win. Agile from immersion disruptive proposition level normal maximise. Going frameworks fruit loop tail have holistic survival." +
+                    "X keeping offline empowerment proposition immersion capitalize empowerment identify operational offline performing generation with mentality. Of in along end diversity up world divide your override for. Keeping long overall runway leverage user diversity additional. Highway corporate mentality thinking disruptive on robust solution of start long. With innovation ballpark your low via fruit podcasting override low proposition fruit is disruptive.",
+                skills: [
+                    {
+                        title: "Java",
+                        icon: "ic-java.png",
+                        strength: 75
+                    },
+                    {
+                        title: "Kotlin",
+                        icon: "ic-kotlin.png",
+                        strength: 25
+                    },
+                    {
+                        title: "Typescript",
+                        icon: "ic-typescript.png",
+                        strength: 50
+                    }
+                ]
+            }
         }
         //     type: "Mobile App",
         //     description: "In this app you can stay up to date with all of the latest rocket-news regarding SpaceX. This app shows all the launches, its details, and way more. Currently also in development for I(PAD-)OS.",

@@ -6,6 +6,11 @@
     display: flex;
     flex-direction: column;
     margin: 50px;
+    cursor: pointer;
+}
+
+#container-content-details{
+    display: none;
 }
 
 #container-component-project-block #container-content {
@@ -18,7 +23,7 @@
     border-style: solid;
 }
 
-#container-component-project-block img {
+#container-component-project-block #project-logo {
     max-width: 150px;
     margin: 25px 0;
     border-radius: 50%;
@@ -67,3 +72,86 @@
 #container-content #container-content-circle-button img{
     margin: 0 5px 20px 5px;
 }
+
+#myDiv.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    transition: 1s ease-in-out;
+    cursor: auto;
+    z-index: 0;
+}
+
+#myDiv {
+    background: aqua;
+    width: 80px;
+    height: 80px;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.close-icon {
+    float: right;
+    margin: 30px;
+    cursor: pointer;
+    display: none;
+    z-index: 100;
+}
+
+.popcontainer {
+    margin: 20px;
+    padding: 20px;
+}
+
+.show-details{
+    width: 85% !important;
+    margin: auto;
+    text-align: left !important;
+    transition: 0.3s;
+}
+
+.show-details #container-content{
+    display: none;
+}
+
+.show-details #container-content-details{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.show-details #container-details-header, #container-details-icon-text{
+    display: flex;
+}
+.show-details #container-details-header{
+    justify-content: space-between;
+}
+.show-details h2{
+    margin: 0;
+}
+
+.show-details #project-company{
+    opacity: 100% !important;
+}
+
+.show-details #container-details-header-right{
+    margin-left: 25px;
+}
+.show-details #details-image{
+    margin: 0;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.show-details #container-details-skills{
+    margin-top: 25px;
+}
+

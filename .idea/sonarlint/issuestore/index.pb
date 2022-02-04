@@ -7,8 +7,6 @@ F
 src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
 G
 src/sections/footer.jsx,7/1/7191e893d6db8e61e8827a60ce599605eb4b5c7d
-A
-public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
 Q
 !src/sections/portfolio/navbar.css,4/5/45ebae2c85f5c01b74b86be1b7b1b3ded4785046
 W
@@ -17,8 +15,6 @@ W
 'src/sections/resume/resumebiography.css,0/c/0cbec691841f02fd0a978d2c79c561c69cb2eeb3
 W
 'src/sections/resume/resumebiography.jsx,b/f/bf4247fe96b2c5c707d012b7bff858909eeeeb20
-D
-public/manifest.json,4/2/42e89cd2213b9d5dfae4f63522702c623170d792
 A
 public/robots.txt,d/a/dac799070c2d0c2fa24462b02c1f2dcc3fb3a1e9
 9
