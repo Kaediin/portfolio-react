@@ -7,6 +7,7 @@
     flex-direction: column;
     margin: 50px;
     cursor: pointer;
+    scroll-margin-top: 100px;
 }
 
 #container-content-details{
@@ -115,7 +116,7 @@
     width: 85% !important;
     margin: auto;
     text-align: left !important;
-    transition: 0.3s;
+    transition: 1s;
 }
 
 .show-details #container-content{

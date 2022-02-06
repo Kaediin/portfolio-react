@@ -10,15 +10,21 @@ class ProjectBlock extends React.Component {
         this.myRef = React.createRef();
     }
 
-    showDetails(e) {
-        if (e.nativeEvent.path[1].classList.contains('show-details')){
-            e.nativeEvent.path[1].classList.remove('show-details')
-            e.nativeEvent.path[1].classList.add('hvr-grow')
+    async showDetails(e) {
+        const delay = ms => new Promise(res => setTimeout(res, ms));
+
+        const element = e.nativeEvent.path[1].closest('#container-component-project-block')
+        const elemClassList = element.classList;
+        if (elemClassList.contains('show-details')) {
+            elemClassList.remove('show-details')
+            elemClassList.add('hvr-grow')
             this.forceUpdate()
         } else {
-        e.nativeEvent.path[1].classList.add('show-details')
-        e.nativeEvent.path[1].classList.remove('hvr-grow')
+            elemClassList.add('show-details')
+            elemClassList.remove('hvr-grow')
         }
+        await delay(500)
+        element.scrollIntoView({behavior: "smooth"})
     }
 
     render() {
