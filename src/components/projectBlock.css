@@ -156,3 +156,15 @@
     margin-top: 25px;
 }
 
+#container-component-project-block:not(.show-details){
+    width: 350px;
+    background: var(--color-green);
+    border-radius: 20px;
+    box-shadow: 0 7px 5px -2px #000;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    cursor: pointer;
+    scroll-margin-top: 100px;
+    transition: 1s;
+}

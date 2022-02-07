@@ -1,24 +1,20 @@
-import React, {useRef} from "react";
+import React from "react";
 import './projectBlock.css'
 import CircleButton from "./circleButton";
 import SkillBarMutliple from "./skillBarMutliple";
 
 class ProjectBlock extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.myRef = React.createRef();
-    }
-
     async showDetails(e) {
         const delay = ms => new Promise(res => setTimeout(res, ms));
+
 
         const element = e.nativeEvent.path[1].closest('#container-component-project-block')
         const elemClassList = element.classList;
         if (elemClassList.contains('show-details')) {
             elemClassList.remove('show-details')
             elemClassList.add('hvr-grow')
-            this.forceUpdate()
+            // this.forceUpdate()
         } else {
             elemClassList.add('show-details')
             elemClassList.remove('hvr-grow')
@@ -53,7 +49,7 @@ class ProjectBlock extends React.Component {
             })()}
         </div>
 
-        return <div ref={this.myRef} id="container-component-project-block" className="start-animation hvr-grow"
+        return <div id="container-component-project-block" className="start-animation hvr-grow"
                     onClick={this.showDetails}>
             <div id="container-content">
                 {domCompany}
