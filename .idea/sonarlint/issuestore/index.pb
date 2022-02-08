@@ -86,13 +86,5 @@ S
 #src/components/skillBarMutliple.css,4/d/4d8837ab04335cb1b24e5a4c8fbe527d2ecf0245
 K
 src/components/skillBar.css,a/7/a7c7f575c912059ddbd0e57a7602614fd93a8210
-Q
-!src/sections/portfolio/skills.css,7/7/77d27a7f3ae55f51bf3b877e4967aaa696b41415
-S
-#src/sections/portfolio/projects.jsx,e/d/eda590ed33c69e53468e4bc709b6ba340cdde2d3
 W
 'src/sections/resume/resumetimelines.jsx,7/1/71b95f9603399dd83e2d5e2faeafb78cad753236
-Q
-!src/sections/portfolio/skills.jsx,e/5/e5fcce220b143ae0667637fc0040fdea9cf758b6
-S
-#src/components/skillBarMutliple.jsx,9/d/9de4435ca26eaa7acb3fcdea88c0ccf516c0bbe6

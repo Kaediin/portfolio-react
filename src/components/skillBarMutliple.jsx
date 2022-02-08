@@ -10,7 +10,7 @@ class SkillBarMutliple extends React.Component{
         this.props.skills.forEach(skill => skillBars.push(<SkillBar skill={skill}/>))
 
         return <div id="container-skill-multiple">
-            <h3>My time spent on the various software at this company</h3>
+            <h3>My time spent on the various software at {this.props.company}</h3>
             {skillBars}
         </div>
     }

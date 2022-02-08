@@ -14,7 +14,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    float: left;
     animation: shrinkBubble 0.2s forwards;
 }
 

@@ -24,17 +24,12 @@ function Projects() {
                     {
                         title: "Java",
                         icon: "ic-java.png",
-                        strength: 75
+                        strength: 5
                     },
                     {
                         title: "Kotlin",
                         icon: "ic-kotlin.png",
-                        strength: 25
-                    },
-                    {
-                        title: "Typescript",
-                        icon: "ic-typescript.png",
-                        strength: 50
+                        strength: 95
                     }
                 ]
             }
@@ -55,19 +50,9 @@ function Projects() {
                     "X keeping offline empowerment proposition immersion capitalize empowerment identify operational offline performing generation with mentality. Of in along end diversity up world divide your override for. Keeping long overall runway leverage user diversity additional. Highway corporate mentality thinking disruptive on robust solution of start long. With innovation ballpark your low via fruit podcasting override low proposition fruit is disruptive.",
                 skills: [
                     {
-                        title: "Java",
-                        icon: "ic-java.png",
-                        strength: 75
-                    },
-                    {
-                        title: "Kotlin",
-                        icon: "ic-kotlin.png",
-                        strength: 25
-                    },
-                    {
-                        title: "Typescript",
-                        icon: "ic-typescript.png",
-                        strength: 50
+                        title: "VueJs",
+                        icon: "ic-vuejs.png",
+                        strength: 100
                     }
                 ]
             }
@@ -91,17 +76,17 @@ function Projects() {
                     {
                         title: "Java",
                         icon: "ic-java.png",
-                        strength: 75
-                    },
-                    {
-                        title: "Kotlin",
-                        icon: "ic-kotlin.png",
-                        strength: 25
+                        strength: 70
                     },
                     {
                         title: "Typescript",
                         icon: "ic-typescript.png",
-                        strength: 50
+                        strength: 25
+                    },
+                    {
+                        title: "PostgreSQL",
+                        icon: "ic-postgresql.png",
+                        strength: 5
                     }
                 ]
             }
@@ -127,52 +112,21 @@ function Projects() {
                     {
                         title: "Java",
                         icon: "ic-java.png",
-                        strength: 75
-                    },
-                    {
-                        title: "Kotlin",
-                        icon: "ic-kotlin.png",
-                        strength: 25
+                        strength: 50
                     },
                     {
                         title: "Typescript",
                         icon: "ic-typescript.png",
-                        strength: 50
+                        strength: 25
+                    },
+                    {
+                        title: "GraphQL",
+                        icon: "ic-graphql.png",
+                        strength: 15
                     }
                 ]
             }
         }
-        //     type: "Mobile App",
-        //     description: "In this app you can stay up to date with all of the latest rocket-news regarding SpaceX. This app shows all the launches, its details, and way more. Currently also in development for I(PAD-)OS.",
-        //     icon: "ic-spacex.png",
-        //     softwares: [
-        //         "Kotlin",
-        //         "Firebase",
-        //         "RestAPI"
-        //     ],
-        // },
-        // {
-        //     type: "Web application",
-        //     description: "This website is a recipebook application in which a user can create, update, read, and delete recipes. Each recipe has: method, ingredients, pictures, tags, and total time to make.",
-        //     icon: "ic-recipebook.png",
-        //     softwares: [
-        //         "Django",
-        //         "Firebase",
-        //         "Python"
-        //     ]
-        // },
-        // {
-        //     type: "Android App",
-        //     description: "With this app you easily setup a scavenger-hunt in which you can setup a quiz at each location. The app uses its GPS location to know if the user is in range of the target. This app is currently in beta-testing.",
-        //     icon: "ic-scavengerhunt.png",
-        //     softwares: [
-        //         "Kotlin",
-        //         "XML",
-        //         "Firebase"
-        //     ],
-        //     githubUrl: "https://github.com/Kaediin/ScavengerHunt"
-        // }
-        // {
     ]
 
     const projectsDom = [];

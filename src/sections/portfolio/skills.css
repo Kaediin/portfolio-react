@@ -10,7 +10,12 @@
 #skills #container-skills{
     margin: 100px auto;
     padding: 20px;
-    overflow: hidden;
     width: 550px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
+
+/*#skills .container-content-bubble{*/
+/*    position: absolute;*/
+/*}*/

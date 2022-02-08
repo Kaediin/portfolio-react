@@ -9,46 +9,42 @@ class Skills extends React.Component{
             {
                 title: "Java",
                 icon: "ic-java.png",
-                strength: 140
+                strength: 160
             },
             {
                 title: "Python",
                 icon: "ic-python.png",
-                strength: 120
+                strength: 140
             },
             {
                 title: "Kotlin",
                 icon: "ic-kotlin.png",
-                strength: 160
+                strength: 140
             },
             {
                 title: "TypeScript",
                 icon: "ic-typescript.png",
-                strength: 160
-            },
-            {
-                title: "Swift",
-                icon: "ic-swift.png",
-                strength: 100
+                strength: 135
             },
             {
                 title: "Creative Problem Solving",
-                strength: 160
+                strength: 150
             },
             {
                 title: "Will to learn",
-                strength: 120
-            },
-            {
-                title: "Team player",
                 strength: 160
             },
             {
+                title: "Team player",
+                strength: 150
+            },
+            {
                 title: "Perseverance",
-                strength: 140
+                strength: 145
             },
         ]
         shuffle(skills)
+        console.log('hello world')
         const bubblessContainer = []
         skills.forEach(skill => bubblessContainer.push(<Bubble skill={skill}/>))
 

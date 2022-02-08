@@ -77,7 +77,7 @@ class ProjectBlock extends React.Component {
                 </div>
                 <p>{project.details.description}</p>
                 <div id="container-details-skills">
-                    <SkillBarMutliple skills={project.details.skills}/>
+                    <SkillBarMutliple skills={project.details.skills} company={project.company}/>
                 </div>
             </div>
 
